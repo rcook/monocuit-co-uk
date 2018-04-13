@@ -1,0 +1,124 @@
+/* 
+    Document   : styles
+    Created on : 19-Feb-2013, 20:05:54
+    Author     : James
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+:root {
+    background-color: white;
+    font-family: arial, helvetica, sans-serif;
+    padding: 1em;
+}
+
+div {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+#pageHeader {
+    font-size: 4em;
+    background-color: white;
+    color: navy;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#blog {
+    text-align: justify;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+}
+
+#copyright {
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#blogParagraph {
+    margin: 10px 0 0 0;
+}
+
+#menuContainer {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 740px;
+}
+
+#menuItem {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    padding: 0;
+}
+
+#menuItemActive {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 0;
+}
+
+#menuItem:hover {
+    background-color: aquamarine;
+}
+
+#menuButton {
+    display: block;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#musicProjectName {
+    font-size: 2em;
+    background: white;
+    color: navy;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#album {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+}
